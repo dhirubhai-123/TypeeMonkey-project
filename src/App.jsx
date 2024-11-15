@@ -196,9 +196,6 @@ const App = () => {
   const [wrong, updateWrong] = useState('src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\mega-bass-sub-drop-effect-240472.mp3')
   const [audio, updateAudio] = useState("src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mech-keyboard-02-102918.mp3");
 
-  // const [wrong, updateWrong] = useState('https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ErrorSounds/mega-bass-sub-drop-effect-240472.mp3')
-  // const [audio, updateAudio] = useState("https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ClickSounds/mech-keyboard-02-102918.mp3");
-
   const sounds = [
     { name: 'Click Sound 1', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\click-151673.mp3' },
     { name: 'Click Sound 2', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mech-keyboard-02-102918.mp3' },
@@ -211,25 +208,6 @@ const App = () => {
     { name: 'Error Sound 4', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\surprise-sound-effect-99300.mp3' },
     { name: 'Error Sound 5', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\sword-swing-whoosh-sound-effect-1-241824.mp3' }
   ];
-
-  // const newSounds = [
-  //   { name: 'Click Sound 1', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ClickSounds/click-151673.mp3' },
-  //   { name: 'Click Sound 2', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ClickSounds/click-234708.mp3' },
-  //   { name: 'Click Sound 3', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ClickSounds/mech-keyboard-02-102918.mp3' },
-  //   { name: 'Click Sound 4', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ClickSounds/mouse-click-104737.mp3' },
-  //   { name: 'Click Sound 5', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ClickSounds/mouse-click-117076.mp3' },
-  //   { name: 'Click Sound 6', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ClickSounds/mouse-click-153941.mp3' },
-  //   { name: 'Click Sound 7', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ClickSounds/mouse-click-sound-233951.mp3' },
-  //   { name: 'Click Sound 8', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ClickSounds/pen-click-99025.mp3' },
-
-
-  //   { name: 'Error Sound 1', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ErrorSounds/error-126627.mp3' },
-  //   { name: 'Error Sound 2', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ErrorSounds/error-96492.mp3' },
-  //   { name: 'Error Sound 3', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ErrorSounds/mega-bass-sub-drop-effect-240472.mp3' },
-  //   { name: 'Error Sound 4', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ErrorSounds/metal-hit-sound-effect-241374.mp3' },
-  //   { name: 'Error Sound 5', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ErrorSounds/surprise-sound-effect-99300.mp3' },
-  //   { name: 'Error Sound 6', url: 'https://github.com/dhirubhai-123/Media-files-for-TypeeMonkey/blob/main/MediaForTypeeMonkey/ErrorSounds/sword-swing-whoosh-sound-effect-1-241824.mp3' }
-  // ];
 
   const [typingScript, updateTypingScript] = useState(words)
   const [testStarted, updateTestStarted] = useState(false)
@@ -295,45 +273,45 @@ const App = () => {
     if (value.endsWith(' ')) {
       // code down here checks the user typed value is correct or not
       newTrimmedValue.current = value.trim();
-      console.log(newTrimmedValue.current)
+      // console.log(newTrimmedValue.current)
       if (currentlyTypingWordsIndex === typingScript.length - 1) {
-        console.log("Your test has Ended")
+        // console.log("Your test has Ended")
 
         //Printing the result for user
-        console.log("time taken to complete ", timeTakenToCompleteTest, "correct words typed ", correctWorsIndexes.current.length)
+        // console.log("time taken to complete ", timeTakenToCompleteTest, "correct words typed ", correctWorsIndexes.current.length)
 
         updateTimeTakenToCompleteTest((timeTakenToCompleteTest) => { timeTakenToCompleteTest = timeTakenToCompleteTest / 60 })
-        console.log(timeTakenToCompleteTest)
+        // console.log(timeTakenToCompleteTest)
         typingSpeed.current = ((correctWorsIndexes.current.length) / timeTakenToCompleteTest) * 100;
-        console.log("Your Typing speed is ", Math.floor(typingSpeed.current), timeTakenToCompleteTest)
+        // console.log("Your Typing speed is ", Math.floor(typingSpeed.current), timeTakenToCompleteTest)
 
         //Reseting all the mandatory states
         updateTestEnded(true)
         updateOneMinuteTest(false)
 
-        console.log(typingScript[currentlyTypingWordsIndex], testStarted, testEnded,)
+        // console.log(typingScript[currentlyTypingWordsIndex], testStarted, testEnded,)
       }
 
       if (newTrimmedValue.current === typingScript[currentlyTypingWordsIndex]) {
 
         updateCorrectWordsTyped((correctWordsTyped) => correctWordsTyped = correctWordsTyped + 1)
         correctWorsIndexes.current.push(currentlyTypingWordsIndex)
-        console.log("correct", correctWordsTyped, correctWorsIndexes.current)
+        // console.log("correct", correctWordsTyped, correctWorsIndexes.current)
 
         // code down here checks the value if its the last 
-        console.log(newTrimmedValue.current, currentlyTypingWordsIndex, typingScript.length - 1, typingScript[typingScript.length - 1])
+        // console.log(newTrimmedValue.current, currentlyTypingWordsIndex, typingScript.length - 1, typingScript[typingScript.length - 1])
 
       } else {
         playSound(wrong);
         updateWrongWordsTyped((wrongWordsTyped) => wrongWordsTyped = wrongWordsTyped + 1)
-        console.log("wrong", wrongWordsTyped)
+        // console.log("wrong", wrongWordsTyped)
       }
 
       updateCurrentlyTypingWordsIndex(currentlyTypingWordsIndex + 1)
       setValue('')
 
     } else {
-      console.log('not ended yet', value)
+      // console.log('not ended yet', value)
     }
   }, [value])
 
@@ -356,15 +334,15 @@ const App = () => {
     if (testStarted && oneMinuteTest) {
       if (timeTakenToCompleteTest === 60) {
         if (clearInterval(intervalId.current)) {
-          console.log("interval is cleared")
+          // console.log("interval is cleared")
         } else {
-          console.log("interval is not cleared");
+          // console.log("interval is not cleared");
           updateTestEnded(true);
           updateOneMinuteTest(false)
           updateTimeTakenToCompleteTest((timeTakenToCompleteTest) => { timeTakenToCompleteTest = timeTakenToCompleteTest / 60 })
-          console.log(timeTakenToCompleteTest)
+          // console.log(timeTakenToCompleteTest)
           typingSpeed.current = ((correctWorsIndexes.current.length) / timeTakenToCompleteTest) * 100;
-          console.log("Your Typing speed is ", Math.floor(typingSpeed.current), timeTakenToCompleteTest)
+          // console.log("Your Typing speed is ", Math.floor(typingSpeed.current), timeTakenToCompleteTest)
           // updateTimeTakenToCompleteTest(0);
         }
       }
@@ -599,31 +577,31 @@ const App = () => {
                     <li
                       onClick={() => {
                         updateTypingScript(typingScript.slice(0, 25))
-                        console.log(typingScript.length)
+                        // console.log(typingScript.length)
                       }}>
                       <button className="hover:invert" >25</button></li>
 
                     <li onClick={() => {
                       updateTypingScript(typingScript.slice(0, 50))
-                      console.log(typingScript.length)
+                      // console.log(typingScript.length)
                     }
                     }><button className="hover:invert">50</button></li>
 
                     <li onClick={() => {
                       updateTypingScript(typingScript.slice(0, 100))
-                      console.log(typingScript.length)
+                      // console.log(typingScript.length)
                     }
                     }><button className="hover:invert">100</button></li>
 
                     <li onClick={() => {
                       updateTypingScript(typingScript.slice(0, 200))
-                      console.log(typingScript.length)
+                      // console.log(typingScript.length)
                     }
                     }><button className="hover:invert">200</button></li>
 
                     <li onClick={() => {
                       updateTypingScript(typingScript.slice(0, 300))
-                      console.log(typingScript.length)
+                      // console.log(typingScript.length)
                     }
                     }><button className="hover:invert">300</button></li>
                     {/* <li><button className="hover:invert"><img className="h-5 w-auto"
