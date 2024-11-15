@@ -69,7 +69,7 @@ const App = () => {
     // ":", "-", "—", "(", ")",
 
     "hello,", "world!", "naughty\\", "wow:", "yes?", "no.", "however-", "therefore,", "indeed!", "amazing;", "great:", "perhaps?", "sure.", "certainly;", "yet!", "maybe;", "thus:", "why?", "because.", "naturally,", "incredible!", "fabulous;", "fantastic:", "obviously?", "remarkable.", "perfect,", "great!", "wonderful;", "exceptional:", "definitely?", "unbelievable.", "certainly,", "brilliant!", "marvelous;", "outstanding:", "surely?", "unquestionable.", "exciting,", "beautiful!", "gorgeous;", "lovely:", "charming?", "delightful.", "graceful,", "pretty!", "magnificent;", "elegant:", "splendid?",
-    "facetious!", "fortuitous:", "gregarious,", "idiosyncratic.", "impeccable", "incorrigible\"", "indigenous\"", "intrepid!", "juxtapose:", "debilitating", "dichotomy", "disparage", "ebullient", "eclectic", "elucidate", "empathy", "ephemeral", "exacerbate", "facetious", "fortuitous", "gregarious", "idiosyncratic\"", "impeccable\'", "incorrigible", "indigenous", "intrepid", "juxtapose", "lackadaisical", "lament", "loquacious", "magnanimous", "meticulous", "munificent", "nebulous", "nonchalant", "obfuscate", "ostentatious", "paradigm", "pedantic", "perfunctory", "perspicacious", "precocious", "quintessential", "recalcitrant.", "redolent", "reprehensible\"", "sagacious'", "scrupulous.", "serendipity\'", "soliloquy\"", "sophomoric.", "sporadic:", "stigmatize", "substantiate", "supercilious", "surreptitious", "taciturn", "tantamount:", "temerity;", "tenacity:", "trepidation!", "ubiquitous", "unilateral", "unprece-dented", "unscrupulous", "venerable:", "vicarious?", "vindicate!", "vitriolic", "vociferous", "volition", "voracious;", "wanton:", "whimsical'", "xenophile", "zealous", "bellicose", "brevity", "candor", "chicanery", "disenfranchise?", "enervate-", "fastidious:", "fatuous", "fecund", "guile", "imminent", "impecunious", "inchoate", "inimical?", "insipid?", "intran-sigent", "inveterate:", "lackadaisical:", "lament", "loquacious.", "magnanimous", "meticulous", "munificent!", "nebulous:", "nonchalant?", "obfuscate,", "ostentatious", "paradigm", "pedantic", "perfunctory!", "perspicacious:", "precocious", "quintessential.", "recalcitrant\"", "redolent", "reprehensible!", "sagacious:", "scrupulous", "serendipity.", "soliloquy", "sophomoric", "sporadic", "stigmatize!", "substantiate:", "supercilious,", "surreptitious.", "taciturn\"", "tantamount\"", "temerity", "tenacity!", "trepidation:", "ubiquitous", "unilateral.", "unprecedented\"", "unscrupulous", "venerable", "vicarious!", "vindicate:", "vitriolic\"", "vociferous\"", "volition", "voracious", "wanton", "whimsical", "xenophile!", "zealous:", "bellicose\"", "brevity", "candor.", "chicanery,", "disenfranchise", "enervate", "fastidious!", "fatuous:", "fecund", "guile", "imminent.", "impecunious", "inchoate", "inimical", "insipid\"", "intransigent!", "inveterate:", "lachrymose.,", "abundance", "adventure,", "alliance", "amplify\"", "ballet", "biodiversity!", "bravery:", "calamity", "cerulean`", "champion\"", "charisma.", "clandestine", "commemorate.", "compassion!", "crescendo:", "curiosity", "decipher,", "diligence", "elixir,", "enigma.", "epiphany", "euphoria.", "fathom.", "fortitude", "glimmer", "grace\"", "harmony", "heliotrope", "horizon", "iconoclast", "inception\"", "infinitesimal", "innovation", "inspiration.", "jubilant\"", "labyrinth", "luminescence.", "mellifluous\"", "metamorphosis", "mirage", "mirth?", "mosaic", "nuance?", "oblivion", "opulence", "pandemonium", "paragon", "perennial,", "perseverance\"", "philosophy", "pinnacle", "placid", "radiance\"", "rejuvenate", "resonance", "reverence", "solitude", "sophisticated", "spectacle", "sublime", "symphony", "tangible", "tantalize", "tempestuous.", "transcendent", "tranquility,", "unfathomable", "vanguard", "venerate\"", "vicinity:", "vigilance\"", "\'vivacious\'", "wilderness\'", "zephyr\"", "zenith", "zeal", "aesthetic", "anachronism;", "believe", "catalyst", "demure", "embellish?", "grandeur", "idyllic", "quixotic", "serene", "vestige"
+    "facetious!", "fortuitous:", "gregarious,", "idiosyncratic.", "impeccable", "incorrigible\"", "indigenous\"", "intrepid!", "juxtapose:", "debilitating", "dichotomy", "disparage", "ebullient", "eclectic", "elucidate", "empathy", "ephemeral", "exacerbate", "facetious", "fortuitous", "gregarious", "idiosyncratic\"", "impeccable\'", "incorrigible", "indigenous", "intrepid", "juxtapose", "lackadaisical", "lamentesh", "loquacious", "magnanimous!", "meticulous,", "munificent", "nebulous", "nonchalant", "obfuscate", "ostentatious-", "paradigm", "pedantic", "perfunctory", "perspicacious", "\'precocious\'", "quintessential", "recalcitrant.", "redolent", "reprehensible\"", "sagacious'", "scrupulous.", "serendipity\'", "soliloquy\"", "sophomoric.", "sporadic:", "stigmatize", "substantiate", "supercilious", "surreptitious", "taciturn", "tantamount:", "temerity;", "tenacity:", "trepidation!", "ubiquitously", "unilateral", "unprece-dented", "unscrupulous", "venerable:", "vicarious?", "vindicate!", "vitriolic", "vociferous", "volition\"", "voracious-;", "wanton:", "whimsical'", "xenophile", "zealous", "bellicose", "brevitious", "candor", "chicanery", "disenfranchise?", "enervate-", "fastidious:", "fatuous", "fecundy", "guile-", "imminent", "impecunious?", "inchoation", "inimical?", "insipid?", "intran-sigent", "inveterately:", "lackadaisical:", "lament", "loquacious.", "magnanimous;", "meticulous", "munificent!", "nebulous:", "nonchalant?", "obfuscate,", "ostentatious", "paradigm:", "pedantic-", "perfunctory!", "perspicacious:", "precocious", "quintessential.", "recalcitrant\"", "redolent?", "reprehensible!", "sagacious:", "scrupulous", "serendipity.", "soliloquy", "sophomoric", "sporadic", "stigmatize!", "substantiate:", "supercilious,", "surreptitious.", "taciturn\"", "tantamount\"", "temerity", "tenacity!", "trepidation:", "ubiquitous", "unilateral.", "unprecedented\"", "unscrupulous?", "venerable", "vicarious!", "vindicate:", "vitriolic\"", "vociferous\"", "volition", "voracious", "wanton", "whimsical", "xenophile!", "zealous:", "bellicose\"", "brevity", "candor.", "chicanery,", "disenfranchise", "enervate", "fastidious!", "fatuous:", "fecund", "guile", "imminent.", "impecunious", "inchoate", "inimical", "insipid\"", "intransigent!", "inveterate:", "lachrymose.,", "abundance", "adventure,", "alliance", "amplify\"", "ballet", "biodiversity!", "bravery:", "calamity", "cerulean`", "champion\"", "charisma.", "clandestine", "commemorate.", "compassion!", "crescendo:", "curiosity", "decipher,", "diligence", "elixir,", "enigma.", "epiphany", "euphoria.", "fathom.", "fortitude", "glimmer", "grace\"", "harmony", "heliotrope", "horizon", "iconoclast", "inception\"", "infinitesimal", "innovation", "inspiration.", "jubilant\"", "labyrinth", "luminescence.", "mellifluous\"", "metamorphosis", "mirage", "mirth?", "mosaic", "nuance?", "oblivion", "opulence", "pandemonium", "paragon", "perennial,", "perseverance\"", "philosophy", "pinnacle", "placid", "radiance\"", "rejuvenate", "resonance", "reverence", "solitude", "sophisticated", "spectacle", "sublime", "symphony", "tangible", "tantalize", "tempestuous.", "transcendent", "tranquility,", "unfathomable", "vanguard", "venerate\"", "vicinity:", "vigilance\"", "\'vivacious\'", "wilderness\'", "zephyr\"", "zenith", "zeal", "aesthetic", "anachronism;", "believe", "catalyst", "demure", "embellish?", "grandeur", "idyllic", "quixotic", "serene", "vestige"
   ];
 
   const quotes = [
@@ -364,6 +364,7 @@ const App = () => {
             <ul className="flex flex-row justify-around items-center space-x-6">
               <li className="hover:cursor-pointer" onClick={() => {
                 updateTypingScript(typingScript)
+                // console.log(typingScript)
                 updateTestStarted(false)
                 updateTestEnded(false)
                 updateCorrectWordsTyped(1)
@@ -386,6 +387,7 @@ const App = () => {
 
               <li className="hover:invert hover:cursor-pointer" onClick={() => {
                 updateTypingScript(typingScript)
+                // console.log(typingScript)
                 updateTestStarted(true)
                 updateTestEnded(false)
                 updateCorrectWordsTyped(1)
@@ -412,6 +414,7 @@ const App = () => {
                 onMouseLeave={() => { updateHomeHovered(false) }}
                 onClick={() => {
                   updateTypingScript(typingScript)
+                  // console.log(typingScript)
                   updateTestStarted(false)
                   updateTestEnded(false)
                   updateCorrectWordsTyped(1)
@@ -510,8 +513,14 @@ const App = () => {
 
                 <div>
                   <ul className="flex space-x-3 mx-4 w-auto">
-                    <li><button className="hover:invert" onClick={() => { updateTypingScript(punctuations) }}>&#64; punctuation</button></li>
-                    <li><button className="hover:invert" onClick={() => { updateTypingScript(numbers) }}>&#35; numbers</button></li>
+                    <li><button className="hover:invert" onClick={() => {
+                      updateTypingScript(punctuations)
+                      // console.log(typingScript)
+                    }}>&#64; punctuation</button></li>
+                    <li><button className="hover:invert" onClick={() => {
+                      updateTypingScript(numbers)
+                      // console.log(typingScript)
+                    }}>&#35; numbers</button></li>
                   </ul>
                 </div>
 
@@ -530,7 +539,10 @@ const App = () => {
                     </li>
 
                     <li className={`flex justify-around items-center gap-1 hover:border ${defaultTheme.accent[1]} hover:rounded-md hover:relative hover:bottom-1 hover:shadow-2xl px-2`}
-                      onClick={() => { updateTypingScript(words) }}>
+                      onClick={() => {
+                          updateTypingScript(words)
+                          // console.log(typingScript)
+                      }}>
                       <button><img className="h-5 w-auto hover:invert "
                         src="https://img.icons8.com/?size=100&id=RMKSx5VsaVye&format=png&color=000000" alt="" />
                       </button>
@@ -577,31 +589,31 @@ const App = () => {
                     <li
                       onClick={() => {
                         updateTypingScript(typingScript.slice(0, 25))
-                        // console.log(typingScript.length)
+                        // console.log(typingScript, typingScript.length)
                       }}>
                       <button className="hover:invert" >25</button></li>
 
                     <li onClick={() => {
                       updateTypingScript(typingScript.slice(0, 50))
-                      // console.log(typingScript.length)
+                      // console.log(typingScript, typingScript.length)
                     }
                     }><button className="hover:invert">50</button></li>
 
                     <li onClick={() => {
                       updateTypingScript(typingScript.slice(0, 100))
-                      // console.log(typingScript.length)
+                      // console.log(typingScript, typingScript.length)
                     }
                     }><button className="hover:invert">100</button></li>
 
                     <li onClick={() => {
                       updateTypingScript(typingScript.slice(0, 200))
-                      // console.log(typingScript.length)
+                      // console.log(typingScript, typingScript.length)
                     }
                     }><button className="hover:invert">200</button></li>
 
                     <li onClick={() => {
                       updateTypingScript(typingScript.slice(0, 300))
-                      // console.log(typingScript.length)
+                      // console.log(typingScript, typingScript.length)
                     }
                     }><button className="hover:invert">300</button></li>
                     {/* <li><button className="hover:invert"><img className="h-5 w-auto"
@@ -738,6 +750,7 @@ const App = () => {
           <button><img
             onClick={() => {
               updateTypingScript(typingScript)
+              // console.log(typingScript)
               updateTestStarted(true)
               updateTestEnded(false)
               updateCorrectWordsTyped(1)
