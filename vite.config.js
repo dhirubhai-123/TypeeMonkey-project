@@ -1,7 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+  build: {
+    assetsDir: 'media', // Ensures media files are placed in the 'media' directory
+  },
+  // Optional: Configure the public directory if you use it
+  publicDir: 'public'
+});
