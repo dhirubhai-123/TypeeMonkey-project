@@ -385,7 +385,7 @@ const App = () => {
               >
                 <div className={`absolute mt-6 text-yellow-400 bg-black text-xs rounded py-1 px-2 transition-opacity duration-300 ${logoHovered ? 'opacity-100' : 'opacity-0'} pointer-events-none`} > TypeeMonkey </div>
                 <img className="h-[15vh] min-w-32 rounded-2xl"
-                  src="src\assets\MediaForTypeeMonkey\WebLogos\TypeeMonkeyLogo.png" alt="can't load" /></li>
+                  src="https://github.com/dhirubhai-123/TypeeMonkey-project/blob/main/src/assets/MediaForTypeeMonkey/WebLogos/TypeeMonkeyLogo.png?raw=true" alt="can't load" /></li>
 
               <li className="hover:invert hover:cursor-pointer" onClick={() => {
                 updateTypingScript(typingScript)
