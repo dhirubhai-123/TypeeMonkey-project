@@ -72,49 +72,49 @@ const App = () => {
     "facetious!", "fortuitous:", "gregarious,", "idiosyncratic.", "impeccable", "incorrigible\"", "indigenous\"", "intrepid!", "juxtapose:", "debilitating", "dichotomy", "disparage", "ebullient", "eclectic", "elucidate", "empathy", "ephemeral", "exacerbate", "facetious", "fortuitous", "gregarious", "idiosyncratic\"", "impeccable\'", "incorrigible", "indigenous", "intrepid", "juxtapose", "lackadaisical", "lamentesh", "loquacious", "magnanimous!", "meticulous,", "munificent", "nebulous", "nonchalant", "obfuscate", "ostentatious-", "paradigm", "pedantic", "perfunctory", "perspicacious", "\'precocious\'", "quintessential", "recalcitrant.", "redolent", "reprehensible\"", "sagacious'", "scrupulous.", "serendipity\'", "soliloquy\"", "sophomoric.", "sporadic:", "stigmatize", "substantiate", "supercilious", "surreptitious", "taciturn", "tantamount:", "temerity;", "tenacity:", "trepidation!", "ubiquitously", "unilateral", "unprece-dented", "unscrupulous", "venerable:", "vicarious?", "vindicate!", "vitriolic", "vociferous", "volition\"", "voracious-;", "wanton:", "whimsical'", "xenophile", "zealous", "bellicose", "brevitious", "candor", "chicanery", "disenfranchise?", "enervate-", "fastidious:", "fatuous", "fecundy", "guile-", "imminent", "impecunious?", "inchoation", "inimical?", "insipid?", "intran-sigent", "inveterately:", "lackadaisical:", "lament", "loquacious.", "magnanimous;", "meticulous", "munificent!", "nebulous:", "nonchalant?", "obfuscate,", "ostentatious", "paradigm:", "pedantic-", "perfunctory!", "perspicacious:", "precocious", "quintessential.", "recalcitrant\"", "redolent?", "reprehensible!", "sagacious:", "scrupulous", "serendipity.", "soliloquy", "sophomoric", "sporadic", "stigmatize!", "substantiate:", "supercilious,", "surreptitious.", "taciturn\"", "tantamount\"", "temerity", "tenacity!", "trepidation:", "ubiquitous", "unilateral.", "unprecedented\"", "unscrupulous?", "venerable", "vicarious!", "vindicate:", "vitriolic\"", "vociferous\"", "volition", "voracious", "wanton", "whimsical", "xenophile!", "zealous:", "bellicose\"", "brevity", "candor.", "chicanery,", "disenfranchise", "enervate", "fastidious!", "fatuous:", "fecund", "guile", "imminent.", "impecunious", "inchoate", "inimical", "insipid\"", "intransigent!", "inveterate:", "lachrymose.,", "abundance", "adventure,", "alliance", "amplify\"", "ballet", "biodiversity!", "bravery:", "calamity", "cerulean`", "champion\"", "charisma.", "clandestine", "commemorate.", "compassion!", "crescendo:", "curiosity", "decipher,", "diligence", "elixir,", "enigma.", "epiphany", "euphoria.", "fathom.", "fortitude", "glimmer", "grace\"", "harmony", "heliotrope", "horizon", "iconoclast", "inception\"", "infinitesimal", "innovation", "inspiration.", "jubilant\"", "labyrinth", "luminescence.", "mellifluous\"", "metamorphosis", "mirage", "mirth?", "mosaic", "nuance?", "oblivion", "opulence", "pandemonium", "paragon", "perennial,", "perseverance\"", "philosophy", "pinnacle", "placid", "radiance\"", "rejuvenate", "resonance", "reverence", "solitude", "sophisticated", "spectacle", "sublime", "symphony", "tangible", "tantalize", "tempestuous.", "transcendent", "tranquility,", "unfathomable", "vanguard", "venerate\"", "vicinity:", "vigilance\"", "\'vivacious\'", "wilderness\'", "zephyr\"", "zenith", "zeal", "aesthetic", "anachronism;", "believe", "catalyst", "demure", "embellish?", "grandeur", "idyllic", "quixotic", "serene", "vestige"
   ];
 
-  const quotes = [
-    "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
-    "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
-    "Do not wait to strike till the iron is hot; but make it hot by striking. - William Butler Yeats",
-    "Great minds discuss ideas; average minds discuss events; small minds discuss people. - Eleanor Roosevelt",
-    "Whether you think you can or you think you can't, you're right. - Henry Ford",
-    "I have not failed. I've just found 10,000 ways that won't work. - Thomas A. Edison",
-    "It is never too late to be what you might have been. - George Eliot",
-    "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful. - Albert Schweitzer",
-    "The best way to predict the future is to invent it. - Alan Kay", "Don't watch the clock; do what it does. Keep going. - Sam Levenson",
-    "You miss 100% of the shots you don't take. - Wayne Gretzky",
-    "The best revenge is massive success. - Frank Sinatra",
-    "What lies behind us and what lies before us are tiny matters compared to what lies within us. - Ralph Waldo Emerson",
-    "To succeed in life, you need two things: ignorance and confidence. - Mark Twain",
-    "Act as if what you do makes a difference. It does. - William James",
-    "Believe you can and you're halfway there. - Theodore Roosevelt", "Failure will never overtake me if my determination to succeed is strong enough. - Og Mandino",
-    "What you get by achieving your goals is not as important as what you become by achieving your goals. - Zig Ziglar", "Your time is limited, don't waste it living someone else's life. - Steve Jobs",
-    "If you are not willing to risk the usual, you will have to settle for the ordinary. - Jim Rohn",
-    "The only place where success comes before work is in the dictionary. - Vidal Sassoon",
-    "Don't be afraid to give up the good to go for the great. - John D. Rockefeller",
-    "I find that the harder I work, the more luck I seem to have. - Thomas Jefferson",
-    "Success is not how high you have climbed, but how you make a positive difference to the world. - Roy T. Bennett",
-    "The way to get started is to quit talking and begin doing. - Walt Disney",
-    "Life is 10% what happens to us and 90% how we react to it. - Charles R. Swindoll",
-    "Keep your face always toward the sunshine—and shadows will fall behind you. - Walt Whitman",
-    "It does not matter how slowly you go as long as you do not stop. - Confucius",
-    "Our greatest glory is not in never falling, but in rising every time we fall. - Confucius",
-    "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails. - William Arthur Ward",
-    "Difficulties in life are intended to make us better, not bitter. - Dan Reeves",
-    "In the middle of every difficulty lies opportunity. - Albert Einstein",
-    "Success usually comes to those who are too busy to be looking for it. - Henry David Thoreau",
-    "Don't let the fear of losing be greater than the excitement of winning. - Robert Kiyosaki",
-    "You are never too old to set another goal or to dream a new dream. - C.S. Lewis",
-    "Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don't quit. - Conrad Hilton",
-    "The only way to do great work is to love what you do. - Steve Jobs",
-    "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it. - Jordan Belfort",
-    "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
-    "What lies behind us and what lies before us are tiny matters compared to what lies within us. - Ralph Waldo Emerson",
-    "Success is walking from failure to failure with no loss of enthusiasm. - Winston Churchill",
-    "Try not to become a man of success, but rather try to become a man of value. - Albert Einstein",
-    "The best revenge is massive success. - Frank Sinatra",
-    "If you can dream it, you can do it. - Walt Disney"
-  ]
+  // const quotes = [
+  //   "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
+  //   "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+  //   "Do not wait to strike till the iron is hot; but make it hot by striking. - William Butler Yeats",
+  //   "Great minds discuss ideas; average minds discuss events; small minds discuss people. - Eleanor Roosevelt",
+  //   "Whether you think you can or you think you can't, you're right. - Henry Ford",
+  //   "I have not failed. I've just found 10,000 ways that won't work. - Thomas A. Edison",
+  //   "It is never too late to be what you might have been. - George Eliot",
+  //   "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful. - Albert Schweitzer",
+  //   "The best way to predict the future is to invent it. - Alan Kay", "Don't watch the clock; do what it does. Keep going. - Sam Levenson",
+  //   "You miss 100% of the shots you don't take. - Wayne Gretzky",
+  //   "The best revenge is massive success. - Frank Sinatra",
+  //   "What lies behind us and what lies before us are tiny matters compared to what lies within us. - Ralph Waldo Emerson",
+  //   "To succeed in life, you need two things: ignorance and confidence. - Mark Twain",
+  //   "Act as if what you do makes a difference. It does. - William James",
+  //   "Believe you can and you're halfway there. - Theodore Roosevelt", "Failure will never overtake me if my determination to succeed is strong enough. - Og Mandino",
+  //   "What you get by achieving your goals is not as important as what you become by achieving your goals. - Zig Ziglar", "Your time is limited, don't waste it living someone else's life. - Steve Jobs",
+  //   "If you are not willing to risk the usual, you will have to settle for the ordinary. - Jim Rohn",
+  //   "The only place where success comes before work is in the dictionary. - Vidal Sassoon",
+  //   "Don't be afraid to give up the good to go for the great. - John D. Rockefeller",
+  //   "I find that the harder I work, the more luck I seem to have. - Thomas Jefferson",
+  //   "Success is not how high you have climbed, but how you make a positive difference to the world. - Roy T. Bennett",
+  //   "The way to get started is to quit talking and begin doing. - Walt Disney",
+  //   "Life is 10% what happens to us and 90% how we react to it. - Charles R. Swindoll",
+  //   "Keep your face always toward the sunshine—and shadows will fall behind you. - Walt Whitman",
+  //   "It does not matter how slowly you go as long as you do not stop. - Confucius",
+  //   "Our greatest glory is not in never falling, but in rising every time we fall. - Confucius",
+  //   "The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails. - William Arthur Ward",
+  //   "Difficulties in life are intended to make us better, not bitter. - Dan Reeves",
+  //   "In the middle of every difficulty lies opportunity. - Albert Einstein",
+  //   "Success usually comes to those who are too busy to be looking for it. - Henry David Thoreau",
+  //   "Don't let the fear of losing be greater than the excitement of winning. - Robert Kiyosaki",
+  //   "You are never too old to set another goal or to dream a new dream. - C.S. Lewis",
+  //   "Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don't quit. - Conrad Hilton",
+  //   "The only way to do great work is to love what you do. - Steve Jobs",
+  //   "The only thing standing between you and your goal is the story you keep telling yourself as to why you can't achieve it. - Jordan Belfort",
+  //   "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
+  //   "What lies behind us and what lies before us are tiny matters compared to what lies within us. - Ralph Waldo Emerson",
+  //   "Success is walking from failure to failure with no loss of enthusiasm. - Winston Churchill",
+  //   "Try not to become a man of success, but rather try to become a man of value. - Albert Einstein",
+  //   "The best revenge is massive success. - Frank Sinatra",
+  //   "If you can dream it, you can do it. - Walt Disney"
+  // ]
 
   const colorThemes = {
     "Dark Theme": {
@@ -193,21 +193,21 @@ const App = () => {
 
 
   //Sound Variables
-  const [wrong, updateWrong] = useState('src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\mega-bass-sub-drop-effect-240472.mp3')
-  const [audio, updateAudio] = useState("src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mech-keyboard-02-102918.mp3");
+  // const [wrong, updateWrong] = useState('src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\mega-bass-sub-drop-effect-240472.mp3')
+  // const [audio, updateAudio] = useState("src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mech-keyboard-02-102918.mp3");
 
-  const sounds = [
-    { name: 'Click Sound 1', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\click-151673.mp3' },
-    { name: 'Click Sound 2', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mech-keyboard-02-102918.mp3' },
-    { name: 'Click Sound 3', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mouse-click-117076.mp3' },
-    { name: 'Click Sound 4', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mouse-click-153941.mp3' },
-    { name: 'Click Sound 5', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mouse-click-sound-233951.mp3' },
-    { name: 'Error Sound 1', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\error-126627.mp3' },
-    { name: 'Error Sound 2', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\mega-bass-sub-drop-effect-240472.mp3' },
-    { name: 'Error Sound 3', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\metal-hit-sound-effect-241374.mp3' },
-    { name: 'Error Sound 4', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\surprise-sound-effect-99300.mp3' },
-    { name: 'Error Sound 5', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\sword-swing-whoosh-sound-effect-1-241824.mp3' }
-  ];
+  // const sounds = [
+  //   { name: 'Click Sound 1', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\click-151673.mp3' },
+  //   { name: 'Click Sound 2', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mech-keyboard-02-102918.mp3' },
+  //   { name: 'Click Sound 3', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mouse-click-117076.mp3' },
+  //   { name: 'Click Sound 4', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mouse-click-153941.mp3' },
+  //   { name: 'Click Sound 5', url: 'src\\assets\\MediaForTypeeMonkey\\ClickSounds\\mouse-click-sound-233951.mp3' },
+  //   { name: 'Error Sound 1', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\error-126627.mp3' },
+  //   { name: 'Error Sound 2', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\mega-bass-sub-drop-effect-240472.mp3' },
+  //   { name: 'Error Sound 3', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\metal-hit-sound-effect-241374.mp3' },
+  //   { name: 'Error Sound 4', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\surprise-sound-effect-99300.mp3' },
+  //   { name: 'Error Sound 5', url: 'src\\assets\\MediaForTypeeMonkey\\ErrorSounds\\sword-swing-whoosh-sound-effect-1-241824.mp3' }
+  // ];
 
   const [typingScript, updateTypingScript] = useState(words)
   const [testStarted, updateTestStarted] = useState(false)
@@ -220,8 +220,8 @@ const App = () => {
   const [timeTakenToCompleteTest, updateTimeTakenToCompleteTest] = useState(0)
 
   //state for managing the time throught the buttons in navigation bar
-  const [testTimeByUser, updateTestTimeByUser] = useState(0)
-  const [buttonStartTest, updateButtonStartTest] = useState('Click To Start')
+  // const [testTimeByUser, updateTestTimeByUser] = useState(0)
+  // const [buttonStartTest, updateButtonStartTest] = useState('Click To Start')
 
   //State which has the current words index which is user is typing
   const [currentlyTypingWordsIndex, updateCurrentlyTypingWordsIndex] = useState(0)
@@ -243,8 +243,10 @@ const App = () => {
 
   const [value, setValue] = useState("start typing here...")
 
-  const [settingsHovered, updateSettingsHovered] = useState(false)
-  const [settingsClicked, updateSettingsClicked] = useState(false)
+  // const [settingsHovered, updateSettingsHovered] = useState(false)
+  // const [settingsClicked, updateSettingsClicked] = useState(false)
+
+  const [infoClicked, updateInfoClicked] = useState(false)
   const [logoHovered, updateLogoHovered] = useState(false)
   const [homeHovered, updateHomeHovered] = useState(false)
   const [startTestHovered, updateStartTestHovered] = useState(false)
@@ -254,7 +256,7 @@ const App = () => {
 
   const handleValueChange = (e) => {
     setValue(e.target.value);
-    playSound(audio);
+    // playSound(audio);
   }
 
   const newTrimmedValue = useRef('')
@@ -263,10 +265,10 @@ const App = () => {
   const intervalId = useRef(0)
 
   //function to update typing script whenever the numbers are clicked in secondary navbar
-  const playSound = (url) => {
-    const audio = new Audio(url);
-    audio.play();
-  };
+  // const playSound = (url) => {
+  //   const audio = new Audio(url);
+  //   audio.play();
+  // };
 
   useEffect(() => {
 
@@ -302,7 +304,7 @@ const App = () => {
         // console.log(newTrimmedValue.current, currentlyTypingWordsIndex, typingScript.length - 1, typingScript[typingScript.length - 1])
 
       } else {
-        playSound(wrong);
+        // playSound(wrong);
         updateWrongWordsTyped((wrongWordsTyped) => wrongWordsTyped = wrongWordsTyped + 1)
         // console.log("wrong", wrongWordsTyped)
       }
@@ -429,7 +431,7 @@ const App = () => {
                   src="https://img.icons8.com/?size=100&id=2797&format=png&color=000000" alt="can't load" />
               </li>
 
-              <li className="hover:invert hover:cursor-pointer"
+              {/* <li className="hover:invert hover:cursor-pointer"
                 onMouseEnter={() => { updateSettingsHovered(true); }}
                 onMouseLeave={() => { updateSettingsHovered(false); }}
                 onClick={() => { settingsClicked ? updateSettingsClicked(false) : updateSettingsClicked(true) }}
@@ -439,10 +441,10 @@ const App = () => {
                 <img className="h-6 w-auto"
                   src="https://img.icons8.com/?size=100&id=2969&format=png&color=000000" alt="can't load" />
 
-              </li>
+              </li> */}
 
               {/* Here we show the settings for audios */}
-              <li>
+              {/* <li>
                 <div>
                   {
                     settingsClicked ? (
@@ -460,19 +462,30 @@ const App = () => {
                       : null
                   }
                 </div>
-              </li>
+              </li> */}
               {/* Audio settings ends here */}
 
 
               <li className="hover:invert hover:cursor-pointer"
                 onMouseEnter={() => updateInfoHovered(true)} onMouseLeave={() => updateInfoHovered(false)}
+                onClick={() => { updateInfoClicked(!infoClicked) }}
               >
-                <div className={`absolute top-0 ml-6 text-white bg-black text-xs rounded py-1 px-2 transition-opacity duration-300 ${infoHovered ? 'opacity-100' : 'opacity-0'} pointer-events-none`} > Info </div>
+                <div className={`absolute top-0 ml-6 text-white bg-black text-xs rounded py-1 px-2 transition-opacity duration-300 ${infoHovered ? 'opacity-100' : 'opacity-0'} pointer-events-none`}
+                > Info </div>
                 <img className="h-6 w-auto"
                   src="https://img.icons8.com/?size=100&id=37303&format=png&color=000000" alt="can't load" />
               </li>
             </ul>
           </div>
+
+          {infoClicked && (
+            <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-75">
+              <div className="bg-white p-6 rounded-lg shadow-lg relative max-w-[80vw] m-auto">
+                <h2 className="text-2xl font-bold mb-4">Information</h2>
+                <h1 className="text-3xl font-bold mb-4 text-center">TypeeMonkey - The Ultimate Typing Website</h1> <p className="mb-4 text-lg text-gray-700"> Welcome to <span className="font-semibold text-blue-600">TypeeMonkey</span>, a highly customizable typing website built with React and styled with Tailwind CSS. Our platform offers a seamless typing experience tailored to improve your typing skills efficiently. </p> <h2 className="text-2xl font-semibold mt-6 mb-3">Features</h2> <ul className="list-disc pl-5 space-y-2 text-gray-700"> <li>Real-time typing speed and accuracy tracking.</li> <li>Customizable themes to personalize your typing environment.</li> <li>Interactive lessons and exercises to enhance your typing proficiency.</li> <li>User-friendly interface optimized for both beginners and advanced typists.</li> </ul> <h2 className="text-2xl font-semibold mt-6 mb-3">Why TypeeMonkey?</h2> <p className="text-lg text-gray-700"> <span className="font-semibold">TypeeMonkey</span> stands out by providing a customizable, engaging, and effective learning experience. Whether you're looking to increase your typing speed or reduce errors, our platform is designed to help you achieve your goals.</p>
+                <button onClick={() => updateInfoClicked(!infoClicked)} className="absolute top-0 right-0 mt-4 mr-4 bg-red-500 text-white rounded-full p-2" > X </button>
+              </div>
+            </div>)}
 
           <div>
             <ul className="flex flex-row space-x-6">
@@ -540,8 +553,8 @@ const App = () => {
 
                     <li className={`flex justify-around items-center gap-1 hover:border ${defaultTheme.accent[1]} hover:rounded-md hover:relative hover:bottom-1 hover:shadow-2xl px-2`}
                       onClick={() => {
-                          updateTypingScript(words)
-                          // console.log(typingScript)
+                        updateTypingScript(words)
+                        // console.log(typingScript)
                       }}>
                       <button><img className="h-5 w-auto hover:invert "
                         src="https://img.icons8.com/?size=100&id=RMKSx5VsaVye&format=png&color=000000" alt="" />
